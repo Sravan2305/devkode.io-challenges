@@ -1,0 +1,31 @@
+.body{
+    background: turquoise;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h2{
+    color:tomato;
+    text-align: center;
+}
+.container{
+    height: 70vh;
+    width:80vw;
+    margin: auto;
+    border: 1px solid black;
+    cursor: crosshair;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+.input-section{
+    display: flex;
+    align-items: center;
+    margin-left: 9vw;
+}
+.color{
+    margin-left: 1rem;
+}
+.pixel{
+    height: 15px;
+    width: 15px;
+    /* display: inline; */
+}
